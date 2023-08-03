@@ -8,6 +8,8 @@ export default function Navbar(): JSX.Element {
      <NavLink to="gift">Gift</NavLink>
      <NavLink to="flowers">Flowers</NavLink>
      <NavLink to="Cake">Cake</NavLink>
+     <NavLink to="Users">Users</NavLink>
+     <NavLink to="Books">Books</NavLink>
      <NavLink to="/">Home</NavLink>
     </nav>
   );

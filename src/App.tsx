@@ -8,6 +8,8 @@ import Flowers from './Flowers/Flowers';
 import Cake from './Cake/Cake';
 import Layout from './Layout/Layout';
 import HomePage from './HomePage/HomePage';
+import Users from './components/Users/Users';
+import Books from './components/Books/Books';
 
 function App(): JSX.Element {
   return (
@@ -18,6 +20,10 @@ function App(): JSX.Element {
         <Route path="gift" element={<Gift />} />
         <Route path="flowers" element={<Flowers />} />
         <Route path="cake" element={<Cake />} />
+        <Route path="users" element={<Users />} />
+        <Route path="users/:userId" element={<Users />} />
+        <Route path="books" element={<Books />} />
+        <Route path="books/:bookId" element={<Books />} />
         </Route>
       </Routes>
     </div>
